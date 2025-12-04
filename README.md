@@ -25,10 +25,6 @@ The analysis is powered by a structured dataset sourced from **Microsoft Excel**
 | **Front Page** | Project cover and navigation overview. | ![image alt](Front_Page.png)|
 | **Overview Dashboard** | High-level summary of operational KPIs. |![image alt](Overview.png) |
 
-**[Overview Dashboard from Page 2]**
-
----
-![image alt](Overview.png)
 
 ---
 
