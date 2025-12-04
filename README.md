@@ -6,6 +6,12 @@ This project showcases a comprehensive, end-to-end business intelligence solutio
 
 The primary objective is to move beyond simple reporting by providing granular, cross-functional visibility that facilitates data-driven decision-making. The dashboard suite features five distinct pages, enabling hospital leadership to monitor daily operations and strategic long-term performance simultaneously.
 
+---
+
+![image alt](Front Page OF Dashboard.png)
+
+---
+
 ## 💾 Data Source & Preparation
 
 The analysis is powered by a structured dataset sourced from **Microsoft Excel**.
@@ -20,14 +26,19 @@ The analysis is powered by a structured dataset sourced from **Microsoft Excel**
 
 | Page | Description | Image Placeholder |
 | :--- | :--- | :--- |
-| **Front Page** | Project cover and navigation overview. |  |
-| **Overview Dashboard** | High-level summary of operational KPIs. | 
+| **Front Page** | Project cover and navigation overview. | |
+| **Overview Dashboard** | High-level summary of operational KPIs. | |
 
-[Image of the Overview Dashboard from Page 2]
+**[Image of the Overview Dashboard from Page 2]**
+
+---
 ![image alt](Overview.png)
-| **Patients Dashboard** | Detailed patient records and consumption patterns. |  |
-| **Doctors Dashboard** | Doctor-specific performance and commission tracking. |  |
-| **Finance Dashboard** | Comprehensive financial metrics and resource allocation. |  |
+
+---
+
+| **Patients Dashboard** | Detailed patient records and consumption patterns. | |
+| **Doctors Dashboard** | Doctor-specific performance and commission tracking. | |
+| **Finance Dashboard** | Comprehensive financial metrics and resource allocation. | |
 
 ---
 
@@ -35,38 +46,79 @@ The analysis is powered by a structured dataset sourced from **Microsoft Excel**
 
 The dashboard provides instant visibility into critical organizational metrics:
 
-| Metric | Value | Dashboard Page | Insight | Source |
-| :--- | :--- | :--- | :--- | :--- |
-| **Total Patients** | 30 | [cite_start]Overview [cite: 29] [cite_start]/ Finance [cite: 284] | Total patients monitored in the current period. [cite_start]| [cite: 29, 284] |
-| **Total Paid Amount** | 727K | [cite_start]Overview [cite: 30] [cite_start]/ Finance [cite: 286] | Total revenue generated from patient payments. [cite_start]| [cite: 30, 286] |
-| **Average Age** | 45.57 | [cite_start]Overview [cite: 32] [cite_start]/ Finance [cite: 287] | Crucial for demographic analysis and resource planning. [cite_start]| [cite: 32, 287] |
-| **Discharge Rate** | 73% | [cite_start]Overview [cite: 49] | Efficiency of patient turnover and recovery. [cite_start]| [cite: 49] |
-| **Dr. Commission** | 71.38K | [cite_start]Overview [cite: 34] [cite_start]/ Finance [cite: 301] | Total commission paid to all doctors. [cite_start]| [cite: 34, 301] |
-| **Doctor Salary Total** | 4M | [cite_start]Finance [cite: 289] | Total expenditure on doctor compensation. [cite_start]| [cite: 289] |
-| **Staff Count** | 3,928 | [cite_start]Finance [cite: 311] | Total non-medical staff count. [cite_start]| [cite: 311] |
-| **Staff Salary Total** | 714K | [cite_start]Finance [cite: 312] | Total expenditure on staff compensation. [cite_start]| [cite: 312] |
+| Metric | Value | Dashboard Page | Insight |
+| :--- | :--- | :--- | :--- |
+| **Total Patients** | 30 | Overview / Finance | Total patients monitored in the current period. |
+| **Total Paid Amount** | 727K | Overview / Finance | Total revenue generated from patient payments. |
+| **Average Age** | 45.57 | Overview / Finance | Supports demographic and service planning. |
+| **Discharge Rate** | 73% | Overview | Reflects hospital efficiency and patient turnover. |
+| **Dr. Commission** | 71.38K | Overview / Finance | Total commissions paid to all doctors. |
+| **Doctor Salary Total** | 4M | Finance | Total doctor compensation expenditure. |
+| **Staff Count** | 3,928 | Finance | Total non-medical staff population. |
+| **Staff Salary Total** | 714K | Finance | Total expenditure on staff compensation. |
 
 ---
 
 ## 🔎 Detailed Visualizations Analysis
 
 ### 1. Overview Page Analysis (Page 2)
-* [cite_start]**Patient Discharge By Date:** A line chart illustrating the number of patient discharges over time (May-23 to Oct-23) [cite: 38, 55-60]. This helps identify peak discharge periods and resource allocation needs.
-* [cite_start]**Charges Breakdown:** A column chart displaying the distribution of revenue across core services: Surgery (0.43M), Room (0.17M), Test, Other, Fees, Discount, and Medicine [cite: 65, 76-87, 322]. **Surgery is identified as the primary revenue generator.**
-* [cite_start]**Medicine Tracking Matrix:** A detailed matrix showing medicine purchases broken down by Month (May-Oct) and Day of the Week (Fri-Wed) [cite: 42, 53, 61-74].
+
+* **Patient Discharge By Date:** A line chart illustrating discharges from May–Oct 2023, revealing peak demand periods and resource allocation needs.
+* **Charges Breakdown:** A column chart showing revenue distribution among Surgery, Room, Test, Fees, Discounts, and Medicine. **Surgery** is identified as the highest revenue generator.
+* **Medicine Tracking Matrix:** A matrix outlining medicine purchases by month (May–Oct) and day of the week, supporting consumption and procurement analysis.
+
+---
 
 ### 2. Patients Page Analysis (Page 3)
-* [cite_start]**Patient Charges:** A horizontal bar chart showing the individual financial burden by charge type for a selected patient (e.g., Amit Kumar: Surgery 25K, Room 10K, Test 5K) [cite: 133, 139-140, 143, 150, 157, 174].
-* [cite_start]**Medicine Sale (QTY):** Ranks the quantity of specific medicines purchased by the patient, with **Omeprazole** and **Paracetamol** as the top items [cite: 134, 141-142].
-* [cite_start]**Patient Feedback:** Captures qualitative data regarding patient experience (e.g., "Treatment was good but had to wait too long" [cite: 132]).
+
+* **Patient Charges:** Breaks down individual patient charges by category (e.g., Surgery 25K, Room 10K, Test 5K).
+* **Medicine Sale (QTY):** Ranks medicines purchased by the patient, with **Omeprazole** and **Paracetamol** as top items.
+* **Patient Feedback:** Captures qualitative insights such as wait times and treatment satisfaction.
+
+---
 
 ### 3. Doctor Page Analysis (Page 4)
-* [cite_start]**Commission Rate:** Clearly displays the individual doctor's commission rate (e.g., Dr. Aditya Gupta: 10.0% [cite: 194]).
-* [cite_start]**Patient Spend & Bills:** A table detailing the patients served, the status of their surgery, and the total Bills and Fees generated (e.g., Rahul Sharma: Bills 10010, Fees 800) [cite: 215, 219-234]. This allows for direct calculation of the doctor's contribution to revenue.
+
+* **Commission Rate:** Displays each doctor’s commission percentage (e.g., Dr. Aditya Gupta: 10%).
+* **Patient Spend & Bills:** Shows patient billing totals, surgery status, fees, and financial contribution per doctor.
+
+---
 
 ### 4. Finance Page Analysis (Page 6)
-* [cite_start]**Medicines Stock Status:** Compares the 'Stock' versus 'Sales' ratio for critical medicines (e.g., Paracetamol, Ibuprofen, Omeprazole) [cite: 296-310]. This is vital for inventory management and preventing stock-outs.
-* [cite_start]**Supplier Analysis:** Displays the distribution of unit prices across different healthcare suppliers (HealthCare Sup..., MediCore Enter..., MediPharm Dis...)[cite: 319, 327, 329, 341].
+
+* **Medicines Stock Status:** Compares stock vs. sales for key medicines (Paracetamol, Ibuprofen, Omeprazole) to prevent shortages.
+* **Supplier Analysis:** Highlights unit price variations across medical suppliers to support cost optimization.
+
+---
+
+## 🚀 Setup and Installation
+
+To view and interact with the Power BI dashboard, follow the steps below:
+
+### Prerequisites
+
+1. **Power BI Desktop:** Install the latest version.
+2. **Excel Data Files:** Ensure all source files are available, and update file paths if needed.
+
+## 🚀 Setup and Installation
+
+To view and interact with this Power BI Dashboard, please follow these steps:
+
+### Prerequisites
+1. **Power BI Desktop:** Ensure you have the latest version of Power BI Desktop installed on your system.
+2. **Excel Data Files:** Ensure the underlying Excel data files are accessible (if applicable, you may need to update the data source paths).
+
+### Installation Steps
+
+1. **Clone the Repository:**
+    ```bash
+    git clone [(https://github.com/Vaishnavi-Sood/Hospital-Dashboard)]
+    ```
+2. **Open the File:** Navigate to the cloned directory and open the `.pbix` file:
+    ```bash
+    "C:\Users\vsood\OneDrive\ドキュメント\Hospital_information_project.pbix"
+    ```
+3. **Refresh Data (If Needed):** If the initial load fails due to missing data sources, go to **Home > Refresh** and update the path to the original Excel files used for this analysis.
 
 ---
 
@@ -78,4 +130,5 @@ The dashboard provides instant visibility into critical organizational metrics:
 
 ---
 
-I've provided a very detailed and professional template. Now, you can easily copy this code into your `README.md` file on GitHub!
+## About Me
+My name is Vaishnavi Sood, and I am currently pursuing B.Com from Delhi University with a growing interest in data analytics and business intelligence. I am actively building my skills through Power BI projects where I explore data modeling, DAX, interactive dashboards, and performance optimization. Working on these projects is helping me strengthen my foundation in data visualization, analytical thinking, and creating insights that support smart decision-making.
