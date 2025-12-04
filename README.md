@@ -87,37 +87,6 @@ The dashboard provides instant visibility into critical organizational metrics:
 
 ---
 
-## 🚀 Setup and Installation
-
-To view and interact with the Power BI dashboard, follow the steps below:
-
-### Prerequisites
-
-1. **Power BI Desktop:** Install the latest version.
-2. **Excel Data Files:** Ensure all source files are available, and update file paths if needed.
-
-## 🚀 Setup and Installation
-
-To view and interact with this Power BI Dashboard, please follow these steps:
-
-### Prerequisites
-1. **Power BI Desktop:** Ensure you have the latest version of Power BI Desktop installed on your system.
-2. **Excel Data Files:** Ensure the underlying Excel data files are accessible (if applicable, you may need to update the data source paths).
-
-### Installation Steps
-
-1. **Clone the Repository:**
-    ```bash
-    git clone [(https://github.com/Vaishnavi-Sood/Hospital-Dashboard)]
-    ```
-2. **Open the File:** Navigate to the cloned directory and open the `.pbix` file:
-    ```bash
-    "C:\Users\vsood\OneDrive\ドキュメント\Hospital_information_project.pbix"
-    ```
-3. **Refresh Data (If Needed):** If the initial load fails due to missing data sources, go to **Home > Refresh** and update the path to the original Excel files used for this analysis.
-
----
-
 ## ✅ Future Enhancements
 
 * **DAX Optimization:** Further refining complex DAX measures for quicker rendering and performance.
