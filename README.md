@@ -8,10 +8,6 @@ The primary objective is to move beyond simple reporting by providing granular, 
 
 ---
 
-![image alt](Front Page OF Dashboard.png)
-
----
-
 ## 💾 Data Source & Preparation
 
 The analysis is powered by a structured dataset sourced from **Microsoft Excel**.
@@ -26,10 +22,10 @@ The analysis is powered by a structured dataset sourced from **Microsoft Excel**
 
 | Page | Description | Image Placeholder |
 | :--- | :--- | :--- |
-| **Front Page** | Project cover and navigation overview. | |
-| **Overview Dashboard** | High-level summary of operational KPIs. | |
+| **Front Page** | Project cover and navigation overview. | ![image alt](Overview.png)|
+| **Overview Dashboard** | High-level summary of operational KPIs. | ![image alt](Front_Page.png)|
 
-**[Image of the Overview Dashboard from Page 2]**
+**[Overview Dashboard from Page 2]**
 
 ---
 ![image alt](Overview.png)
